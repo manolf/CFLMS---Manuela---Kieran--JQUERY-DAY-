@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Document</title>
+  </head>
+  <style>
+    
+      img{
+          height:200px;
+          width: 200px;
+      }
+
+  </style>
+  <body>
+    <h1 id="output">click on the images</h1>
+
+    <div>
+      <img src="img/bell.png" alt="the bell" />
+    </div>
+
+    <div>
+      <img src="img/box.png" alt="the box" />
+    </div>
+
+    <div>
+      <img src="img/santa-claus.png" alt="Santa Claus" />
+    </div>
+
+<script>
+
+$(document).ready(function() {
+
+    $("img").click(function() {
+
+    let content = $(this).attr("alt");
+    console.log(content);
+    $("#output").text("You clicked on " + content);
+    });
+
+})
+
+
+</script>
+
+  </body>
+</html>
