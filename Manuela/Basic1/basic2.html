@@ -29,41 +29,63 @@
       </div>
 
       <div class="grid-item">
-        <img src="img/santa-claus.png" alt="Santa Claus" />
+        <img class="santa" src="img/santa-claus.png" alt="Santa Claus" />
       </div>
 
       <div class="grid-item">
-        <img src="img/box.png" alt="the box" />
+        <img class= "box" src="img/box.png" alt="the box" />
       </div>
 
       <div class="grid-item">
-        <img src="img/box.png" alt="the box" />
+        <img class="box" src="img/box.png" alt="the box" />
       </div>
 
       <div class="grid-item">
-        <img src="img/santa-claus.png" alt="Santa Claus" />
+        <img class="santa" src="img/santa-claus.png" alt="Santa Claus" />
       </div>
 
       <div class="grid-item">
-        <img src="img/box.png" alt="the box" />
+        <img class="box" src="img/box.png" alt="the box" />
       </div>
 
       <div class="grid-item">
-        <img src="img/santa-claus.png" alt="Santa Claus" />
+        <img class="santa" src="img/santa-claus.png" alt="Santa Claus" />
       </div>
 
       <div class="grid-item">
-        <img src="img/box.png" alt="the box" />
+        <img class="box" src="img/box.png" alt="the box" />
       </div>
 
       <div class="grid-item">
-        <img src="img/santa-claus.png" alt="Santa Claus" />
+        <img class="santa" src="img/santa-claus.png" alt="Santa Claus" />
       </div>
     </div>
 
     <script>
-
+      $(document).ready(function () {
         
+        //activate all images to hide 
+        // $("img").click(function () {
+        //     $(this).hide()
+        // });
+
+        //activate just Santa to hide
+        $(".santa").click(function () {
+              $(this).hide()
+         });
+
+
+
+     });
+
+     $(document).ready(function () {
+     $(".box").click(function () {
+          let content = $(this).attr("alt");
+          $("#output").text("You clicked on " + content);
+        });
+      });
+
+
     </script>
   </body>
 </html>
