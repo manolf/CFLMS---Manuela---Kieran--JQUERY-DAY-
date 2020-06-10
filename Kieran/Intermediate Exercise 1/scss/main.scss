@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #familyCards {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-content: center;
+            
+
+            .card {
+                flex-basis: 20%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-items: center;
+                align-items: center;
+                margin-bottom: 2%;
+
+                border-color: black;
+                border-style: solid;
+                border-radius: 5%;
+                box-shadow: lightgrey;
+
+                .memberImg {
+                    height: 180px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5% 5% 0 0;
+                }
+            }
+        }
+    }
+}

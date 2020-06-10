@@ -1,0 +1,92 @@
+var familyTree = `[
+    {
+        "name": "Ester",
+        "relation": "Aunt",
+        "img": "aunt.jpg",
+        "immediateFamily": false,
+        "generation": "2",
+        "hobby": "Goat yoga"
+    },
+
+    {
+        "name": "Chad",
+        "relation": "Cousin",
+        "img": "cousin.jpg",
+        "immediateFamily": false,
+        "generation": "3",
+        "hobby": "Tennis"
+    },
+
+    {
+        "name": "Chris",
+        "relation": "Father",
+        "img": "dad.jpg",
+        "immediateFamily": true,
+        "generation": "2",
+        "hobby": "Stamp Collecting"
+    },
+
+    {
+        "name": "Louis",
+        "relation": "Daughter",
+        "img": "daughter.jpg",
+        "immediateFamily": true,
+        "generation": "3",
+        "hobby": "MMA"
+    },
+
+    {
+        "name": "George",
+        "relation": "Grandfather",
+        "img": "grandad.jpg",
+        "immediateFamily": false,
+        "generation": "1",
+        "hobby": "Birdwatching"
+    },
+
+    {
+        "name": "Patricia",
+        "relation": "Grandmother",
+        "img": "grandmother.jpg",
+        "immediateFamily": false,
+        "generation": "1",
+        "hobby": "Bingo"
+    },
+
+    {
+        "name": "Tracey",
+        "relation": "Mother",
+        "img": "mom.jpg",
+        "immediateFamily": true,
+        "generation": "2",
+        "hobby": "Gardening"
+    },
+
+    {
+        "name": "Holly",
+        "relation": "Niece",
+        "img": "neice.jpg",
+        "immediateFamily": false,
+        "generation": "3",
+        "hobby": "Shopping"
+    },
+
+    {
+        "name": "Harry",
+        "relation": "Son",
+        "img": "son.jpg",
+        "immediateFamily": true,
+        "generation": "3",
+        "hobby": "Dinosaurs"
+    },
+
+    {
+        "name": "Paul",
+        "relation": "Uncle",
+        "img": "uncle.jpg",
+        "immediateFamily": false,
+        "generation": "2",
+        "hobby": "Gambling"
+    }
+]`
+
