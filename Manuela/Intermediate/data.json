@@ -1,0 +1,15 @@
+simpsons = `[
+    {"name": "Homer", "relation": "Father", "family": true, "image": "./img/homer.png","more":"a doughnut a day keeps the doctor away"},
+    {"name": "Marge", "relation": "Mother", "family": true, "image": "./img/marge.png","more":"blue is my favourite color"},
+    {"name": "Bart", "relation": "Son", "family": true, "image": "./img/bart.png", "more":"life sucks"},
+    {"name": "Lisa", "relation": "Daughter", "family": true, "image": "./img/lisa.png","more":"if you believe everything you read - better not read"},
+    {"name": "Maggie", "relation": "Daughter", "family": true, "image": "./img/maggie.png","more":"better dont mess with me"},
+    {"name": "Flanders", "relation": "Neighbour", "family": false, "image": "./img/flanders.png", "more":"workout your body and soul"},
+    {"name": "Mr. Burns", "relation": "Boss", "family": false, "image": "./img/burns.png", "more":"money and power is my hobby"},
+    {"name": "Smithers", "relation": "Victim", "family": false, "image": "./img/smithers.png","more":"love is in the air"},
+    {"name": "Apu", "relation": "Friend", "family": false, "image": "./img/apu.png","more":"whatever you want - I got it"},
+    {"name": "Comic book guy", "relation": "Vendor", "family": false, "image": "./img/comic_book_guy.png","more":"Aliens exist"},
+    {"name": "Itchy", "relation": "TV Star", "family": false, "image": "./img/itchy.png","more":"the second mouse gets the cheese"},
+    {"name": "Krusty", "relation": "TV Star", "family": false, "image": "./img/krusty.png","more":"bad hair days for every clown!"},
+    {"name": "Ralph", "relation": "Friend", "family": false, "image": "./img/ralph.png","more":"it wasn't me"}
+]`;
